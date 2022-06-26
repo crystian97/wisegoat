@@ -1,4 +1,5 @@
 export function Home() {
+  
   return (
     <div className="grid-cols-2 w-screen flex justify-evenly  items-center">
       <div className="flex flex-col flex-1 max-w-[100px] h-16 gap-8 justify-start items-start">
