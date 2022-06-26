@@ -1,9 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  content: ["./src/**/*.jsx"],
 
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        roxo: {
+          100: "#72005F",
+        },
+        bege: {
+          100: "#BAA193",
+        },
+      },
+    },
   },
   plugins: [],
 };
